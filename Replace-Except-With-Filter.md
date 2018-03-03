@@ -1,4 +1,10 @@
-# Spark Optimization Rule - ReplaceExceptWithNotFilter
+---
+post_title: Spark New Optimization Rule - ReplaceExceptWithNotFilter
+layout: post
+published: true
+---
+
+# Spark New Optimization Rule - ReplaceExceptWithNotFilter
 Spark community decided to replace Except logical operator using left anti-join in [SPARK-12660](https://issues.apache.org/jira/browse/SPARK-12660).
 It facilitates to take advantage of all the benefits of the join operations such as managed memory, 
 code generation and broadcast joins, cc. [SPARK-12660](https://issues.apache.org/jira/browse/SPARK-12660).
