@@ -1,9 +1,14 @@
 ---
+ID: 266
 post_title: Spark Catalyst Internals
+author: sathyak_1989
+post_excerpt: ""
 layout: post
+permalink: >
+  http://sathiyaprabhu.com/spark-catalyst-internals/
 published: true
+post_date: 2018-03-03 16:20:23
 ---
-
 # Spark Catalyst Internals
 Spark catalyst is one of the secret sauce of Spark's Operations on the structured data. Let's take
 a deep look into its internals.
@@ -30,4 +35,3 @@ class that extending it is to define the list of children.
 
 
 ## Low-level RDD TreeNode
-
